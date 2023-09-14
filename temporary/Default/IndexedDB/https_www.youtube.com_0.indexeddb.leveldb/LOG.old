@@ -1,0 +1,15 @@
+2023/09/14-22:16:14.444 6934 Reusing MANIFEST /mnt/d/Projects/web-automation/temporary/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/09/14-22:16:14.476 6934 Recovering log #3
+2023/09/14-22:16:14.495 6934 Reusing old log /mnt/d/Projects/web-automation/temporary/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 
+2023/09/14-22:16:17.859 6934 Manual compaction at level-0 from '\x00\x17\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x18\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/09/14-22:16:17.943 6934 Manual compaction at level-0 from '\x00\x18\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x19\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/09/14-22:16:19.301 6934 Manual compaction at level-0 from '\x00\x1d\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1e\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/09/14-22:16:19.320 6934 Manual compaction at level-0 from '\x00#\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00$\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/09/14-22:16:19.577 6934 Manual compaction at level-0 from '\x00 \x00\x00\x00' @ 72057594037927935 : 1 .. '\x00!\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/09/14-22:16:19.589 6934 Manual compaction at level-0 from '\x00!\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00"\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/09/14-22:16:19.828 6934 Manual compaction at level-0 from '\x00"\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00#\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/09/14-22:16:19.850 6934 Manual compaction at level-0 from '\x00\x1f\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00 \x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/09/14-22:16:20.075 6934 Manual compaction at level-0 from '\x00\x1a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1b\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/09/14-22:16:20.089 6934 Manual compaction at level-0 from '\x00\x1e\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1f\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/09/14-22:16:20.327 6934 Manual compaction at level-0 from '\x00\x1c\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1d\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/09/14-22:16:20.340 6934 Manual compaction at level-0 from '\x00\x19\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1a\x00\x00\x00' @ 0 : 0; will stop at (end)
