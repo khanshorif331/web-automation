@@ -1,4 +1,4 @@
-2023/09/14-22:16:11.036 6934 Reusing MANIFEST /mnt/d/Projects/web-automation/temporary/Default/Session Storage/MANIFEST-000001
-2023/09/14-22:16:11.061 6934 Recovering log #3
-2023/09/14-22:16:11.063 6934 (ignoring error) /mnt/d/Projects/web-automation/temporary/Default/Session Storage/000003.log: dropping 2298 bytes; Corruption: checksum mismatch
-2023/09/14-22:16:11.067 6934 Reusing old log /mnt/d/Projects/web-automation/temporary/Default/Session Storage/000003.log 
+2023/09/15-18:15:48.859 3 Reusing MANIFEST /mnt/d/Projects/web-automation/temporary/Default/Session Storage/MANIFEST-000001
+2023/09/15-18:15:48.916 3 Recovering log #3
+2023/09/15-18:15:48.919 3 (ignoring error) /mnt/d/Projects/web-automation/temporary/Default/Session Storage/000003.log: dropping 5502 bytes; Corruption: checksum mismatch
+2023/09/15-18:15:48.929 3 Reusing old log /mnt/d/Projects/web-automation/temporary/Default/Session Storage/000003.log 
