@@ -10,9 +10,9 @@ const browser = await puppeteer.launch({
 })
 const page = await browser.newPage()
 await page.goto('https://duckduckgo.com',{waitUntil:'networkidle2'})
-await page.waitForSelector('#search_form_input_homepage')
-await page.type('#search_form_input_homepage','devconfbd')
-await page.click('#search_button_homepage')
+await page.waitForSelector('#searchbox_input')
+await page.type('#searchbox_input','devconfbd')
+await page.click('button[aria-label="Search"]')
 await page.waitForSelector('[data-testid="result-title-a"]')
 await setTimeout(1000)
 await page.screenshot({
