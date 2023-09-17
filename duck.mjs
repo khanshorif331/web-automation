@@ -9,13 +9,17 @@ const browser = await puppeteer.launch({
     executablePath:'/usr/bin/chromium-browser'
 })
 const page = await browser.newPage()
-
-await page.goto("https://devconfbd.com")
-await page.screenshot({
-    path:"devconfbd.png"
-})
-await page.waitForSelector("img[alt='guest']");
-await page.click("img[alt='guest']");
+await page.goto('https://duckduckgo.com',{waitUntil:'networkidle2'})
+await page.waitForSelector('#search_form_input_homepage')
+await page.type('#search_form_input_homepage','devconfbd')
+await page.click('#search_button_homepage')
+await page.waitForSelector('[data-testid="result-title-a"]')
 await setTimeout(1000)
-await page.screenshot({path:"guest.png"})
+await page.screenshot({
+    path:"duckduck.png"
+})
 await browser.close()
+
+// #searchbox_input
+// #search_button
+// [data-testid="result-title-a"]

@@ -3,7 +3,7 @@ import {setTimeout} from 'timers/promises'
 
 const browser = await puppeteer.launch({
     // args: ["--no-sandbox", "--disabled-setupid-sandbox"],
-    // headless:false,
+    headless:false,
     defaultViewport:{width:1920,height:1000},
     slowMo:250,
     userDataDir:'temporary',
